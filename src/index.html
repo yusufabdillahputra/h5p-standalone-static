@@ -1,0 +1,22 @@
+<html>
+<head>
+  <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png">
+  <meta charset="utf-8" />
+  <link type="text/css" rel="stylesheet" media="all" href="styles/h5p.css" />
+  <script type="text/javascript" src="js/h5p-standalone-main.min.js"></script>
+  <script type="text/javascript">
+    (function($) {
+      $(function() {
+        $('.h5p-container').h5p({
+          frameJs: 'js/h5p-standalone-frame.min.js',
+          frameCss: 'styles/h5p.css',
+          h5pContent: 'workspace/interactive-video/'
+        });
+      });
+    })(H5P.jQuery);
+  </script>
+</head>
+  <body>
+    <div class="h5p-container"></div>
+  </body>
+</html>
